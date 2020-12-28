@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxSocket.io'
-  s.version          = '1.0.5'
+  s.version          = 'socket.io-3'
   s.summary          = 'Listen to a codable! With RxSocket.io library your distance to whole socket complexity is a single line of code.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.source_files = 'RxSocket.io/Classes/**/*.{h,m,swift}', 'RxSocket.io/Classes/*.{h,m,swift}'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
-  s.dependency 'Socket.IO-Client-Swift'
+  s.dependency 'Socket.IO-Client-Swift', "~> 16.0.0-beta"
   # s.resource_bundles = {
   #   'RxSocket.io' => ['RxSocket.io/Assets/*.png']
   # }
