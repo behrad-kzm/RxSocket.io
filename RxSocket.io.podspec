@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxSocket.io'
-  s.version          = 'socket.io-3'
+  s.version          = '1.0.6'
   s.summary          = 'Listen to a codable! With RxSocket.io library your distance to whole socket complexity is a single line of code.'
 
 # This description is used to generate tags and improve search results.
